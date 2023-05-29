@@ -3,6 +3,7 @@ import Logo from "./componentes/Logo";
 import Header from './componentes/Header';
 import Pesquisa from './componentes/Pesquisa';
 import 'antd/dist/reset.css';
+import Lancamentos from './componentes/Lancamentos';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Header />
       </div>
       <Pesquisa />
+      <Lancamentos />
     </div>
   );
 }
