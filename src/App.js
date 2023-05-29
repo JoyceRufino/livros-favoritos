@@ -1,23 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
+import Logo from "./componentes/Logo";
+import Header from './componentes/Header';
+import Pesquisa from './componentes/Pesquisa';
+import 'antd/dist/reset.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="App-header">
+        <Logo />
+        <Header />
+      </div>
+      <Pesquisa />
     </div>
   );
 }
