@@ -1,0 +1,33 @@
+.container-card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-self: center;
+    min-width: 500px;
+    max-width: 800px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.card-title{
+    padding: 10px;
+}
+.card-title > h2{
+    color: orange;
+}
+.card-title > h3,h4,p{
+    color: rgb(58, 55, 55);
+}
+
+.img{
+    margin-bottom: 10px;
+}
+.btn{
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    background-color: orange;
+    color: white;
+    padding: 10px;
+}
